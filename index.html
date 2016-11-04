@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/bootstrap-material-design.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/ripples.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/material-custom.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/material.min.js" type="text/javascript"></script>
+    <script src="js/ripples.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="javascript:void(0)">Brand</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="javascript:void(0)">Active</a></li>
+                        <li><a href="javascript:void(0)">Link</a></li>
+                        <li class="dropdown">
+                            <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+                                <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)">Action</a></li>
+                                <li><a href="javascript:void(0)">Another action</a></li>
+                                <li><a href="javascript:void(0)">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Dropdown header</li>
+                                <li><a href="javascript:void(0)">Separated link</a></li>
+                                <li><a href="javascript:void(0)">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control col-md-8" placeholder="Search">
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="javascript:void(0)">Link</a></li>
+                        <li class="dropdown">
+                            <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+                                <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)">Action</a></li>
+                                <li><a href="javascript:void(0)">Another action</a></li>
+                                <li><a href="javascript:void(0)">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="javascript:void(0)">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form class="">
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="fName">First Name</label>
+                            <input class="form-control" id="fName" type="text">
+                        </div>
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="lName">Last Name</label>
+                            <input class="form-control" id="lName" type="text">
+                        </div>
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="email">Email</label>
+                            <input class="form-control" id="email" type="email">
+                        </div>
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="pass">Password</label>
+                            <input class="form-control" id="pass" type="password">
+                        </div>
+                        <div class="form-group text-right">
+                            <a href="javascript:void(0)" class="btn btn-raised btn-default">Cancel</a>
+                            <a href="javascript:void(0)" class="btn btn-raised btn-primary">Save</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <div class="">
+                        <a href="javascript:void(0)" class="btn btn-raised active"><code>.active</code></a>
+                        <a href="javascript:void(0)" class="btn btn-raised btn-default">Default</a>
+                        <a href="javascript:void(0)" class="btn btn-raised btn-primary">Primary</a>
+                        <a href="javascript:void(0)" class="btn btn-raised btn-success">Success</a>
+                        <a href="javascript:void(0)" class="btn btn-raised btn-info">Info</a>
+                        <a href="javascript:void(0)" class="btn btn-raised btn-warning">Warning</a>
+                        <a href="javascript:void(0)" class="btn btn-raised btn-danger">Danger</a>
+                        <a href="javascript:void(0)" class="btn btn-raised btn-link">Link</a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+
+<script>
+    $.material.init();
+</script>
+</body>
+</html>
